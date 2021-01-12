@@ -1,4 +1,4 @@
-####The code in MazeGame.createMaze() is not very flexible:
+#### The code in MazeGame.createMaze() is not very flexible:
 * the layout of the maze is hard-wired
 * the types of Rooms, Doors, Walls are hard-coded
 * There is no mechanism for adding new components such as DoorNeedingSpell, EnchantedRoom

@@ -1,4 +1,4 @@
-###Suggestions
+### Suggestions
 
 * replace explicit constructor calls with dynamic dispatch; use overriding
 to change kinds of Rooms. → Factory Method

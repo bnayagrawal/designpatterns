@@ -3,7 +3,7 @@ Abstract Factory
 provides an interface for creating families of related or dependent
 objects without specifying their concrete classes
 
-####Use AbstractFactory when
+#### Use AbstractFactory when
    * a system should be independent of how its products are created,
     composed, represented
     
@@ -16,7 +16,7 @@ objects without specifying their concrete classes
    * you want to provide a class library of products, and you want to
     reveal just their interfaces, not their implementations
     
-####Participants:
+#### Participants:
 
 * AbstractFactory
     * declares interface for operations that create abstract products
