@@ -2,8 +2,8 @@ package patterns.creational.abstractfactory.products;
 
 import patterns.creational.Room;
 
-class EnchantedRoom extends Room {
-    EnchantedRoom(Spell s) {
+public class EnchantedRoom extends Room {
+    public EnchantedRoom(Spell s) {
         super();
         /* ... */
     }
