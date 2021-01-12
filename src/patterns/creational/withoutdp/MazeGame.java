@@ -1,4 +1,6 @@
-package patterns.creational.abstractfactory.nopattern;
+package patterns.creational.withoutdp;
+
+import patterns.creational.*;
 
 public class MazeGame {
     public Maze createMaze() {

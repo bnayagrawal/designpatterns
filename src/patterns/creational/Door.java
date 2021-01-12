@@ -1,4 +1,4 @@
-package patterns.creational.abstractfactory.nopattern;
+package patterns.creational;
 
 public class Door extends MapSite {
     public Door(Room r1, Room r2) {

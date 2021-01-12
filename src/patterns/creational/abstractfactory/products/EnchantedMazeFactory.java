@@ -1,8 +1,7 @@
-package patterns.creational.abstractfactory.withpattern.products;
+package patterns.creational.abstractfactory.products;
 
-import patterns.creational.abstractfactory.nopattern.Door;
-import patterns.creational.abstractfactory.nopattern.Room;
-import patterns.creational.abstractfactory.withpattern.MazeFactory;
+import patterns.creational.Door;
+import patterns.creational.Room;
 
 public class EnchantedMazeFactory extends MazeFactory {
     public EnchantedRoom makeRoom() {

@@ -1,4 +1,4 @@
-package patterns.creational.abstractfactory.nopattern;
+package patterns.creational;
 
 public abstract class MapSite {
 // enter() method omitted

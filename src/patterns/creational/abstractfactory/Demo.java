@@ -1,6 +1,7 @@
-package patterns.creational.abstractfactory.withpattern;
+package patterns.creational.abstractfactory;
 
-import patterns.creational.abstractfactory.withpattern.products.EnchantedMazeFactory;
+import patterns.creational.abstractfactory.products.EnchantedMazeFactory;
+import patterns.creational.abstractfactory.products.MazeFactory;
 
 public class Demo {
     public static void main(String[] args) {

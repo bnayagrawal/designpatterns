@@ -1,7 +1,7 @@
-package patterns.creational.abstractfactory.withpattern.products;
+package patterns.creational.abstractfactory.products;
 
-import patterns.creational.abstractfactory.nopattern.Door;
-import patterns.creational.abstractfactory.nopattern.Room;
+import patterns.creational.Door;
+import patterns.creational.Room;
 
 class DoorNeedingSpell extends Door {
     DoorNeedingSpell(Room r1, Room r2) {

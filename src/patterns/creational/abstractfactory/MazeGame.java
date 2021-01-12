@@ -1,9 +1,10 @@
-package patterns.creational.abstractfactory.withpattern;
+package patterns.creational.abstractfactory;
 
-import patterns.creational.abstractfactory.nopattern.Direction;
-import patterns.creational.abstractfactory.nopattern.Door;
-import patterns.creational.abstractfactory.nopattern.Maze;
-import patterns.creational.abstractfactory.nopattern.Room;
+import patterns.creational.Direction;
+import patterns.creational.Door;
+import patterns.creational.Maze;
+import patterns.creational.Room;
+import patterns.creational.abstractfactory.products.MazeFactory;
 
 class MazeGame {
 

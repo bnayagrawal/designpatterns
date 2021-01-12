@@ -1,6 +1,6 @@
-package patterns.creational.abstractfactory.withpattern.products;
+package patterns.creational.abstractfactory.products;
 
-import patterns.creational.abstractfactory.nopattern.Room;
+import patterns.creational.Room;
 
 class EnchantedRoom extends Room {
     EnchantedRoom(Spell s) {

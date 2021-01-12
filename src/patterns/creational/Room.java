@@ -1,4 +1,4 @@
-package patterns.creational.abstractfactory.nopattern;
+package patterns.creational;
 
 public class Room extends MapSite {
 
@@ -39,6 +39,10 @@ public class Room extends MapSite {
 
     public String toString() {
         return "Room #" + new Integer(_roomNr).toString();
+    }
+
+    int getRoomNumber() {
+        return _roomNr;
     }
 
     private int _roomNr;

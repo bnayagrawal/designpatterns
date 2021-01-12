@@ -15,3 +15,17 @@ objects without specifying their concrete classes
     
    ▪ you want to provide a class library of products, and you want to
     reveal just their interfaces, not their implementations
+    
+Participants:
+
+AbstractFactory
+    ▪ declares interface for operations that create abstract products
+▪ ConcreteFactory
+    ▪ implements operations to create concrete products
+▪ AbstractProduct
+    ▪ declares an interface for a type of product object
+▪ ConcreteProduct
+    ▪ defines the product object created by concrete factory
+    ▪ implements the AbstractProduct interface
+▪ Client
+    ▪ uses only interfaces of AbstractFactory/AbstractProduct

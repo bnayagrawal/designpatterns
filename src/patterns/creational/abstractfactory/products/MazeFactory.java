@@ -1,9 +1,9 @@
-package patterns.creational.abstractfactory.withpattern;
+package patterns.creational.abstractfactory.products;
 
-import patterns.creational.abstractfactory.nopattern.Door;
-import patterns.creational.abstractfactory.nopattern.Maze;
-import patterns.creational.abstractfactory.nopattern.Room;
-import patterns.creational.abstractfactory.nopattern.Wall;
+import patterns.creational.Door;
+import patterns.creational.Maze;
+import patterns.creational.Room;
+import patterns.creational.Wall;
 
 public class MazeFactory {
     public Maze makeMaze() {
