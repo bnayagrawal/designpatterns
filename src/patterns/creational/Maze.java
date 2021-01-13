@@ -3,7 +3,9 @@ package patterns.creational;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Maze {
+// Cloneable is implemented to support Prototype pattern only
+// Java performs 'shallow' clone only
+public class Maze implements Cloneable {
     public Maze() {
         System.out.println("creating a Maze");
     }
@@ -22,4 +24,9 @@ public class Maze {
     }
 
     private Map<Integer, Room> _rooms = new HashMap<Integer, Room>();
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }

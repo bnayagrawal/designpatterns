@@ -1,6 +1,8 @@
 package patterns.creational;
 
-public class Room extends MapSite {
+// Cloneable is implemented to support Prototype pattern only
+// Java performs 'shallow' clone only
+public class Room extends MapSite implements Cloneable {
 
     public Room() {
         _roomNr = _roomCnt++;
@@ -51,4 +53,9 @@ public class Room extends MapSite {
     private MapSite _southSide;
     private MapSite _eastSide;
     private MapSite _westSide;
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }

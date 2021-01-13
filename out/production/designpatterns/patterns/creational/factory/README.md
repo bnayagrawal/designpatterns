@@ -20,4 +20,10 @@ overridden by subclasses
 * ConcreteCreator
     * overrides the factory method to return a ConcreteProduct
     
+### Factory Method vs Abstract Factory
+* Abstract factories are often implemented using factory methods
+    * class AbstractFactory contains the FactoryMethods that are overridden in class ConcreteFactory
+    * factory is passed to Client as a parameter
+    * Client invokes factory methods on this parameter
     
+* Note: AbstractFactory can also be implemented using Prototype    

@@ -6,7 +6,7 @@ import patterns.creational.Maze;
 import patterns.creational.Room;
 import patterns.creational.abstractfactory.products.MazeFactory;
 
-class MazeGame {
+public class MazeGame {
 
     // This will allow use to create different types of maze
     public Maze createMaze(MazeFactory factory) {
