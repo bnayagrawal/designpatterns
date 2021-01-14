@@ -1,10 +1,10 @@
 package patterns.creational.factory.products;
 
-import patterns.creational.*;
+import common.maze.Door;
+import common.maze.Room;
 import patterns.creational.abstractfactory.products.DoorNeedingSpell;
 import patterns.creational.abstractfactory.products.EnchantedRoom;
 import patterns.creational.abstractfactory.products.Spell;
-import patterns.creational.factory.MazeGame;
 
 public class EnchantedMazeGame extends MazeGame {
     public Room makeRoom() {

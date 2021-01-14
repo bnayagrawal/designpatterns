@@ -1,7 +1,8 @@
 package patterns.creational.factory;
 
-import patterns.creational.Maze;
+import common.maze.Maze;
 import patterns.creational.factory.products.EnchantedMazeGame;
+import patterns.creational.factory.products.MazeGame;
 
 public class Demo {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package patterns.creational.abstractfactory.products;
 
-import patterns.creational.Room;
+import common.maze.Room;
 
 public class EnchantedRoom extends Room {
     public EnchantedRoom(Spell s) {

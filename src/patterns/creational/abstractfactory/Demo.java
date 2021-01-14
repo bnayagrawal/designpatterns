@@ -2,6 +2,7 @@ package patterns.creational.abstractfactory;
 
 import patterns.creational.abstractfactory.products.EnchantedMazeFactory;
 import patterns.creational.abstractfactory.products.MazeFactory;
+import patterns.creational.abstractfactory.products.MazeGame;
 
 public class Demo {
     public static void main(String[] args) {

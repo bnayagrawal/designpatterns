@@ -1,4 +1,4 @@
-package patterns.creational;
+package common.maze;
 
 // Cloneable is implemented to support Prototype pattern only
 // Java performs 'shallow' clone only

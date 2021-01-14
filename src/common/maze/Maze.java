@@ -1,4 +1,4 @@
-package patterns.creational;
+package common.maze;
 
 import java.util.HashMap;
 import java.util.Map;

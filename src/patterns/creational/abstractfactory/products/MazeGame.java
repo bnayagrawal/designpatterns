@@ -1,10 +1,9 @@
-package patterns.creational.abstractfactory;
+package patterns.creational.abstractfactory.products;
 
-import patterns.creational.Direction;
-import patterns.creational.Door;
-import patterns.creational.Maze;
-import patterns.creational.Room;
-import patterns.creational.abstractfactory.products.MazeFactory;
+import common.maze.Direction;
+import common.maze.Door;
+import common.maze.Maze;
+import common.maze.Room;
 
 public class MazeGame {
 

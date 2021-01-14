@@ -1,7 +1,6 @@
-package patterns.creational.builder;
+package patterns.creational.builder.products;
 
-import patterns.creational.Maze;
-import patterns.creational.builder.products.MazeBuilder;
+import common.maze.Maze;
 
 public class MazeGame {
     public Maze createMaze(MazeBuilder mazeBuilder) {

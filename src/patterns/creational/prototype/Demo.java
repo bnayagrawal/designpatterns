@@ -1,10 +1,10 @@
 package patterns.creational.prototype;
 
-import patterns.creational.Door;
-import patterns.creational.Maze;
-import patterns.creational.Room;
-import patterns.creational.Wall;
-import patterns.creational.abstractfactory.MazeGame;
+import common.maze.Door;
+import common.maze.Maze;
+import common.maze.Room;
+import common.maze.Wall;
+import patterns.creational.abstractfactory.products.MazeGame;
 import patterns.creational.abstractfactory.products.MazeFactory;
 import patterns.creational.prototype.products.MazePrototypeFactory;
 

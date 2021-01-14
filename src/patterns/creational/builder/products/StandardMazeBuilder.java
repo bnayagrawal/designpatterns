@@ -1,6 +1,6 @@
 package patterns.creational.builder.products;
 
-import patterns.creational.*;
+import common.maze.*;
 
 public class StandardMazeBuilder implements MazeBuilder {
 

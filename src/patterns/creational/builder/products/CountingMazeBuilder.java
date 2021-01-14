@@ -1,6 +1,6 @@
 package patterns.creational.builder.products;
 
-import patterns.creational.Maze;
+import common.maze.Maze;
 
 public class CountingMazeBuilder implements MazeBuilder {
     private int rooms = 0;

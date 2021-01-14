@@ -1,7 +1,7 @@
 package patterns.creational.abstractfactory.products;
 
-import patterns.creational.Door;
-import patterns.creational.Room;
+import common.maze.Door;
+import common.maze.Room;
 
 public class DoorNeedingSpell extends Door {
     public DoorNeedingSpell(Room r1, Room r2) {

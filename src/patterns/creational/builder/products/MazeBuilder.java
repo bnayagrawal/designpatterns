@@ -1,6 +1,6 @@
 package patterns.creational.builder.products;
 
-import patterns.creational.Maze;
+import common.maze.Maze;
 
 public interface MazeBuilder {
     void buildRoom(int room);

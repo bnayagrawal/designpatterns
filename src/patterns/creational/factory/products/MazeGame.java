@@ -1,7 +1,6 @@
-package patterns.creational.factory;
+package patterns.creational.factory.products;
 
-import patterns.creational.Direction;
-import patterns.creational.*;
+import common.maze.*;
 
 public class MazeGame {
     public Maze makeMaze(){ return new Maze(); }

@@ -1,9 +1,9 @@
 package patterns.creational.prototype.products;
 
-import patterns.creational.Door;
-import patterns.creational.Maze;
-import patterns.creational.Room;
-import patterns.creational.Wall;
+import common.maze.Door;
+import common.maze.Maze;
+import common.maze.Room;
+import common.maze.Wall;
 import patterns.creational.abstractfactory.products.MazeFactory;
 
 public class MazePrototypeFactory extends MazeFactory {

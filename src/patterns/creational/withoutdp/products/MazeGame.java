@@ -1,6 +1,6 @@
-package patterns.creational.withoutdp;
+package patterns.creational.withoutdp.products;
 
-import patterns.creational.*;
+import common.maze.*;
 
 public class MazeGame {
     public Maze createMaze() {
